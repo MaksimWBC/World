@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #262424;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: #9932CC;
+}
+
+a:visited {
+    color: #800080;
+}
+
+.container {
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first {
+    border: 4px solid rgba(255, 152, 0, 0.8);
+    box-shadow: 0 0 10px rgb(255, 152, 0);
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: 100%;
+    color: #ff9800;
+    transition: 0.3s;
+}
+
+.first:hover {
+    box-shadow: 0 0 25px rgb(255, 152, 0);
+    background-color: white;
+}
+
+.second {
+    border: 4px solid rgba(76, 100, 232, 0.8);
+    box-shadow: 0 0 10px rgb(76, 100, 232);
+    background-image: url(2.jpg);
+    background-size: cover;
+    background-position: 100%;
+    color: #4c64e8;
+    transition: 0.3s;
+}
+
+.second:hover {
+    box-shadow: 0 0 25px rgb(76, 100, 232);
+}
+
+.threeth {
+    border: 4px solid rgba(245, 255, 250, 0.7);
+    box-shadow: 0 0 10px rgb(245, 255, 250);
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-position: 100%;
+    color: #f5fffa;
+    transition: 0.3s;
+}
+
+.threeth:hover {
+    box-shadow: 0 0 25px rgb(245, 255, 250);
+}
