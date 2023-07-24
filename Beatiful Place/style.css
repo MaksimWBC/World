@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@ body {
     background-position: 100%;
     background-attachment: fixed;
     backdrop-filter: blur(8px);
+    font-family: "Lugrasimo";
 }
 
 .wrapper {
@@ -56,6 +59,7 @@ a:hover {
 
 .name_page {
     text-align: center;
+    padding-top: 15px;
 }
 
 main {
